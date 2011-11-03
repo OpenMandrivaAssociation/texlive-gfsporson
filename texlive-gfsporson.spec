@@ -1,3 +1,9 @@
+# revision 18651
+# category Package
+# catalog-ctan /fonts/greek/gfs/gfsporson
+# catalog-date 2008-08-19 21:00:04 +0200
+# catalog-license other-free
+# catalog-version 1.01
 Name:		texlive-gfsporson
 Version:	1.01
 Release:	1
@@ -53,6 +59,7 @@ encoding.
 %doc %{_texmfdistdir}/doc/fonts/gfsporson/README
 %doc %{_texmfdistdir}/doc/fonts/gfsporson/gfsporson.pdf
 %doc %{_texmfdistdir}/doc/fonts/gfsporson/gfsporson.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -63,3 +70,5 @@ encoding.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
