@@ -6,7 +6,7 @@
 # catalog-version 1.01
 Name:		texlive-gfsporson
 Version:	1.01
-Release:	4
+Release:	5
 Summary:	A Greek font, originally from Porson
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/greek/gfs/gfsporson
