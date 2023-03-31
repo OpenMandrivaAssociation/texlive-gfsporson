@@ -1,6 +1,6 @@
 Name:		texlive-gfsporson
 Version:	18651
-Release:	1
+Release:	2
 Summary:	A Greek font, originally from Porson
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/greek/gfs/gfsporson
