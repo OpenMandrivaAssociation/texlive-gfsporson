@@ -3,7 +3,7 @@ Version:	18651
 Release:	2
 Summary:	A Greek font, originally from Porson
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/greek/gfs/gfsporson
+URL:		https://www.ctan.org/tex-archive/fonts/greek/gfs/gfsporson
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gfsporson.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gfsporson.doc.r%{version}.tar.xz
